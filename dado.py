@@ -4,4 +4,6 @@ class Dado:
         self.numero_caras = numero_caras
         
     def tirada(self) -> int:
-        return random.randint(1, self.numero_caras)
+        valor_tirada = random.randint(1, self.numero_caras)
+        print(f"Se ha hecho una tirada y ha salido {valor_tirada}")
+        return valor_tirada
