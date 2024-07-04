@@ -16,5 +16,7 @@ while terminar is False:
     if input(INTERFAZ_FINAL).lower() not in ("si", "yes", "y"):
         terminar = True
 
-print(LISTA_TIRADAS, tiradas)
-print(TOTAL_TIRADAS, sum(tiradas))
+
+if __name__ == "__main__":
+    print(LISTA_TIRADAS, tiradas)
+    print(TOTAL_TIRADAS, sum(tiradas))
