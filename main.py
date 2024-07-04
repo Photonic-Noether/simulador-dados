@@ -17,6 +17,11 @@ while terminar is False:
         terminar = True
 
 
+
+
+
+
+asd
 if __name__ == "__main__":
     print(LISTA_TIRADAS, tiradas)
     print(TOTAL_TIRADAS, sum(tiradas))
